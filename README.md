@@ -10,6 +10,28 @@ iPERFEX (c) 2012-2016
 ## Introduction
 Elastix GUI is ElastixMT framework based and any other modules. The idea is to have a basic panel for using it in various projects.
 
+## Modules
+
+| Module  | Description  | Message |
+| :------------ |:---------------:| :-----: |
+| applet_admin  | - | - |
+| currency      | - | - |
+| dashboard | - | - |
+| _elastixutils | - | - |
+| grouplist | - | - |
+| group_permission | - | - |
+| language | - | - |
+| network_parameters | - | - |
+| organization | - | - |
+| organization_permission | - | - |
+| packages | - | - |
+| repositories | - | - |
+| shutdown | - | - |
+| themes_system | - | - |
+| time_config | - | - |
+| userlist | - | - |
+
+
 ## Installation
 
 Install the git package and follow the instructions on a CentOS 6.
