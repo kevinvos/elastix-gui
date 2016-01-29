@@ -101,7 +101,7 @@ rpmbuild -ba /root/rpmbuild/SPECS/elastix-gui-framework.spec
 
 ## INSTALL RPM ##
 
-#Install elastix-framework 
+#Install elastix-gui-framework 
 rpm -i /root/rpmbuild/RPMS/noarch/elastix-framework-3.0.0-12.noarch.rpm
 ```
 
