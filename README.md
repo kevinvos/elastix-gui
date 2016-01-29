@@ -1,8 +1,11 @@
-# elastix-gui
-Elastix GUI
+# Elastix GUI
 
 This code is distributed under the GNU LGPL v3.0 license.
 
+iPERFEX (c) 2012-2016
+ Federico Pereira <fpereira@iperfex.com>
+
+ Join our Google Group <elastix-gui@googlegroups.com>
 
 ## Introduction
 Elastix GUI is ElastixMT framework based and any other modules. The idea is to have a basic panel for using it in various projects.
