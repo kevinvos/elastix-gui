@@ -15,18 +15,18 @@ Elastix GUI is ElastixMT framework based and any other modules. The idea is to h
 | Module  | Description  | Message |
 | :------------ |:---------------:| :-----: |
 | applet_admin  | - | - |
-| currency      | - | - |
+| currency      | module to change currency | ok |
 | dashboard | - | - |
 | _elastixutils | - | - |
 | grouplist | - | - |
 | group_permission | - | - |
-| language | - | - |
+| language | module to change language | OK |
 | network_parameters | - | - |
 | organization | - | - |
 | organization_permission | - | - |
 | packages | - | - |
 | repositories | - | - |
-| shutdown | - | - |
+| shutdown | module for shutdown | ok |
 | themes_system | - | - |
 | time_config | - | - |
 | userlist | - | - |
