@@ -17,24 +17,22 @@ Install the git package and follow the instructions on a CentOS 6.
 
 ```bash
 
-#Disable Selinux
+## Disable Selinux
 sed -i 's/enforcing/disabled/g' /etc/selinux/config
 
-#Activating the interface eth0
+## Activating the interface eth0
 sed -i "s/^\(ONBOOT=\).*$/\1yes/g" /etc/sysconfig/network-scripts/ifcfg-eth0
 
-#disable iptables
+## disable iptables
 service iptables save
 service iptables stop
 chkconfig iptables off
 
-#Yum Update
+## Yum Update
 yum -y update
 yum -y install vim wget
 
-cd /usr/src
-
-#System packages
+## System packages
 yum -y install system-config-date system-config-firewall-base system-config-keyboard system-config-language system-config-network-tui system-config-users
 #Packages for this implementation.
 yum -y install dialog vim mc screen nmap wget mlocate mailx
@@ -60,6 +58,7 @@ yum -y remove git
 yum -y install curl-devel expat-devel gettext-devel openssl-devel zlib-devel
 yum -y install  gcc perl-ExtUtils-MakeMaker
 
+## Git 2.0.4
 cd /usr/src
 wget https://www.kernel.org/pub/software/scm/git/git-2.0.4.tar.gz
 tar xzf git-2.0.4.tar.gz
@@ -69,11 +68,11 @@ make prefix=/usr/local/git install
 echo "export PATH=$PATH:/usr/local/git/bin" >> /etc/bashrc
 source /etc/bashrc
 
-#Usuario asterisk 
+# User asterisk 
 /usr/sbin/adduser asterisk
 /usr/sbin/usermod -c "Asterisk VoIP PBX" -g asterisk -s /bin/bash -d /var/lib/asterisk asterisk
 
-#Start Services
+## Start Services
 /etc/init.d/htpd start
 /etc/init.d/mysqld start
 /etc/init.d/httpd start
@@ -83,10 +82,36 @@ chkconfig --level 345 mysqld on
 chkconfig --level 345 httpd on
 
 
-#MySQL Change root Password
+## MySQL Change root Password
 echo "SET PASSWORD FOR 'root'@'localhost' = PASSWORD('eLaStIx.2o16');" | mysql -u root
+```
 
-#Cloning repository
+
+## Developer: Create RPM & install
+
+```bash
+## Create RPM
+## Cloning repository
 cd /usr/src
 git clone https://github.com/lordbasex/elastix-gui.git
+rpmdev-setuptree
+rm -fr /root/rpmbuild/
+ln -s /usr/src/elastix-gui/rpmbuild /root/
+rpmbuild -ba /root/rpmbuild/SPECS/elastix-gui-framework.spec
+
+## INSTALL RPM ##
+
+#Install elastix-framework 
+rpm -i /root/rpmbuild/RPMS/noarch/elastix-framework-3.0.0-12.noarch.rpm
+```
+
+
+## Install only rpm
+```bash
+rpm -i https://github.com/lordbasex/elastix-gui/raw/master/rpmbuild/RPMS/noarch/elastix-gui-framework-1.0.0-1.noarch.rpm
+```
+
+## Uninstall
+```bash
+rpm -e --nodeps elastix-gui-framework
 ```
