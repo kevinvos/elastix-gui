@@ -141,3 +141,6 @@ rpm -i https://github.com/lordbasex/elastix-gui/raw/master/rpmbuild/RPMS/noarch/
 ```bash
 rpm -e --nodeps elastix-gui-framework
 ```
+
+## Password
+The password is: PASSWORD
