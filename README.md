@@ -26,7 +26,7 @@ Elastix GUI is ElastixMT framework based and any other modules. The idea is to h
 | organization_permission | - | - | |
 | packages | - | - | |
 | repositories | - | - | |
-| shutdown | module for shutdown | ok | |
+| shutdown | module for shutdown | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/shutdown.png) |
 | themes_system | - | - | |
 | time_config | - | - | |
 | userlist | - | - | |
@@ -34,7 +34,7 @@ Elastix GUI is ElastixMT framework based and any other modules. The idea is to h
 
 ## Installation
 
-[![Video]{(https:// =250x)](https://www.youtube.com/watch?v=gTYvmzRJEWc)
+[![Video](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/elastix-gui_-_Panel_Web_universal.png =250x)](https://www.youtube.com/watch?v=gTYvmzRJEWc)
 
 
 Install the git package and follow the instructions on a CentOS 6.
