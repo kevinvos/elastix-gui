@@ -34,6 +34,9 @@ Elastix GUI is ElastixMT framework based and any other modules. The idea is to h
 
 ## Installation
 
+[![ScreenShot](https://)](https://www.youtube.com/watch?v=gTYvmzRJEWc)
+
+
 Install the git package and follow the instructions on a CentOS 6.
 
 [Download ISO 32bit](http://mirrors.dcarsat.com.ar/centos/6.7/isos/i386/CentOS-6.7-i386-netinstall.iso)
