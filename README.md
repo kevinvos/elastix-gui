@@ -14,14 +14,14 @@ Elastix GUI is ElastixMT framework based and any other modules. The idea is to h
 
 | Module  | Description  | Message | Image |
 | :------------ |:---------------:| :-----: | :------:
-| applet_admin  | module manager dashboard | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/applet_admin.png) |
+| applet_admin  | dashboard manager module | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/applet_admin.png) |
 | currency      | module to change currency | ok |  |
-| dashboard | module dashboard | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/dashboard.png) |
+| dashboard | dashboard module | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/dashboard.png) |
 | _elastixutils | - | - | |
 | grouplist | - | - | |
 | group_permission | - | - | |
 | language | module to change language | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/language.png) |
-| network_parameters | - | - | |
+| network_parameters | network manager module | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/network_parameters.png) |
 | organization | - | - | |
 | organization_permission | - | - | |
 | packages | - | - | |
