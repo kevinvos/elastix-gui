@@ -24,8 +24,8 @@ Elastix GUI is ElastixMT framework based and any other modules. The idea is to h
 | network_parameters | network manager module | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/network_parameters.png) |
 | organization | - | - | |
 | organization_permission | - | - | |
-| packages | - | - | |
-| repositories | - | - | |
+| packages | - | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/packages.png) |
+| repositories | - | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/repositories.png) |
 | shutdown | module for shutdown | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/shutdown.png) |
 | themes_system | - | - | |
 | time_config | - | - | |
