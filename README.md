@@ -14,13 +14,13 @@ Elastix GUI is ElastixMT framework based and any other modules. The idea is to h
 
 | Module  | Description  | Message |
 | :------------ |:---------------:| :-----: |
-| applet_admin  | - | - |
+| applet_admin  | module manager dashboard | ok |
 | currency      | module to change currency | ok |
-| dashboard | - | - |
+| dashboard | module dashboard | ok |
 | _elastixutils | - | - |
 | grouplist | - | - |
 | group_permission | - | - |
-| language | module to change language | OK |
+| language | module to change language | ok |
 | network_parameters | - | - |
 | organization | - | - |
 | organization_permission | - | - |
