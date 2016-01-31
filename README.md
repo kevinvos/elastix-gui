@@ -15,7 +15,7 @@ Elastix GUI is ElastixMT framework based and any other modules. The idea is to h
 | Module  | Description  | Message | Image |
 | :------------ |:---------------:| :-----: | :------:
 | applet_admin  | dashboard manager module | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/applet_admin.png) |
-| currency      | module to change currency | ok |  |
+| currency      | module to change currency | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/currency.png) |
 | dashboard | dashboard module | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/dashboard.png) |
 | _elastixutils | - | - | |
 | grouplist | - | - | |
