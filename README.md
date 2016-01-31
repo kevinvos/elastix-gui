@@ -12,24 +12,24 @@ Elastix GUI is ElastixMT framework based and any other modules. The idea is to h
 
 ## Modules
 
-| Module  | Description  | Message |
-| :------------ |:---------------:| :-----: |
-| applet_admin  | module manager dashboard | ok |
-| currency      | module to change currency | ok |
-| dashboard | module dashboard | ok |
-| _elastixutils | - | - |
-| grouplist | - | - |
-| group_permission | - | - |
-| language | module to change language | ok |
-| network_parameters | - | - |
-| organization | - | - |
-| organization_permission | - | - |
-| packages | - | - |
-| repositories | - | - |
-| shutdown | module for shutdown | ok |
-| themes_system | - | - |
-| time_config | - | - |
-| userlist | - | - |
+| Module  | Description  | Message | Image |
+| :------------ |:---------------:| :-----: | :------:
+| applet_admin  | module manager dashboard | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/applet_admin.png) |
+| currency      | module to change currency | ok |  |
+| dashboard | module dashboard | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/dashboard.png) |
+| _elastixutils | - | - | |
+| grouplist | - | - | |
+| group_permission | - | - | |
+| language | module to change language | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/language.png) |
+| network_parameters | - | - | |
+| organization | - | - | |
+| organization_permission | - | - | |
+| packages | - | - | |
+| repositories | - | - | |
+| shutdown | module for shutdown | ok | |
+| themes_system | - | - | |
+| time_config | - | - | |
+| userlist | - | - | |
 
 
 ## Installation
