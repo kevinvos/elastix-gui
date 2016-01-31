@@ -34,9 +34,8 @@ Elastix GUI is ElastixMT framework based and any other modules. The idea is to h
 
 ## Installation
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gTYvmzRJEWc" frameborder="0" allowfullscreen></iframe>
+[![VIDEO](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://www.youtube.com/embed/gTYvmzRJEWc)
 
-[![Video](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/elastix-gui_-_Panel_Web_universal.png =250x)](https://www.youtube.com/watch?v=gTYvmzRJEWc)
 
 
 Install the git package and follow the instructions on a CentOS 6.
