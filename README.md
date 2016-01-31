@@ -27,7 +27,7 @@ Elastix GUI is ElastixMT framework based and any other modules. The idea is to h
 | packages | - | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/packages.png) |
 | repositories | - | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/repositories.png) |
 | shutdown | module for shutdown | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/shutdown.png) |
-| themes_system | - | - | |
+| themes_system | - | ok | [Link](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/themes_system.png) |
 | time_config | - | - | |
 | userlist | - | - | |
 
