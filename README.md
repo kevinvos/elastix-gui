@@ -34,7 +34,7 @@ Elastix GUI is ElastixMT framework based and any other modules. The idea is to h
 
 ## Installation
 
-[![VIDEO](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://www.youtube.com/embed/gTYvmzRJEWc)
+[![VIDEO](https://raw.githubusercontent.com/lordbasex/elastix-gui/master/screenshot/youtube.png)](https://www.youtube.com/embed/gTYvmzRJEWc)
 
 
 
