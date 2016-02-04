@@ -2,7 +2,7 @@ Summary: Elastix GUI is ElastixMT framework based and any other modules. The ide
 Name: elastix-gui-framework
 Vendor: iPERFEX
 Version: 1.0.0
-Release: 2
+Release: 1
 License: GPL
 Group: Applications/System
 #Source compression example: tar -czvf elastix-gui-framework_1.0.0-1.tgz elastix-gui-framework/
