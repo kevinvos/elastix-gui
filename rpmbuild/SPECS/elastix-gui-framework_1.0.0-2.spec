@@ -327,9 +327,7 @@ fi
 source /etc/elastix.conf
 echo "UPDATE elxpbx.acl_user SET md5_password = MD5('${amiadminpwd}') WHERE id=1;" | mysql -u root -p${mysqlrootpwd}
 
-elastix-menumerge /usr/share/elastix/module_installer/elastix-gui-framework-1.0.0-1/setup/infomodules/
-
-
+elastix-menumerge /usr/share/elastix/module_installer/elastix-gui-framework-%{version}-%{release}/setup/infomodules/
 
 %preun
 # Reverse the patching of httpd.conf
